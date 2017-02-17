@@ -1,0 +1,78 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+.main {
+  display: flex;
+  justify-content: space-around;
+  height: 99vh;
+  width: 100vw;
+}
+.main > div {
+  margin: auto;
+}
+.user-list {
+  height: 100%;
+  overflow-y: scroll;
+  width: 40%;
+  max-width: 450px;
+  border: solid thin lightgrey;
+}
+.user {
+  display: flex;
+  align-items: center;
+  margin: 1px 0 0 0;
+  background-color: rgba(210, 210, 210, 0.5);
+  border: solid thin #327508;
+  width: 99%;
+}
+.avatar {
+  height: 60px;
+
+}
+.user-info {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  height: 60px;
+  width: 80%;
+  margin: auto;
+}
+.user-info h5 {
+  margin: 0;
+}
+.user-name {
+  height: 70%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.user-name > a {
+  text-decoration: none;
+  color: white;
+}
+.find-me {
+  background-color: #FF875A;
+  display: flex;
+  align-items: center;
+}
+.user-email-homepage {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  position: absolute;
+  bottom: 1px;
+}
+.leaflet-container {
+    height: 100%;
+    width: 100%;
+}
+.popup-img {
+  height: 45px;
+  width: 45px;
+}
+.leaflet-popup-content > span {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
