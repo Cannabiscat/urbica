@@ -3,7 +3,7 @@ Urbica test task
 
 ```shell
 git clone https://github.com/Cannabiscat/urbica.git
-cd fake-features-server
+cd urbica/fake-features-server
 npm i
 npm start
 ```
