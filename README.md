@@ -6,6 +6,9 @@ git clone https://github.com/Cannabiscat/urbica.git
 cd fake-features-server
 npm i
 npm start
+```
+in new terminal
+```shell
 cd ../frontend
 npm i
 npm start
