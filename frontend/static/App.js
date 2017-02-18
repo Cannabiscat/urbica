@@ -11,7 +11,7 @@ export default class App extends PureComponent {
     };
   }
   componentDidMount() {
-    this.getData('http://cannabiscat.cf:4000/features');
+    this.getData('http://localhost:4000/features');
   }
 
   getData = (url) => {
